@@ -12,7 +12,7 @@ public class Contact {
     //getters: controlled read access to private fields
     public String getName() { return name; }
     public String getPhone() { return phone; }
-
+    public void setName(String name) { this.name = name; }
     // TOSTRING: what prints when you System.out.println(contact)
     @Override
     public String toString() {
